@@ -1,3 +1,7 @@
+# Hongyu Zhang 06-04-2024
+# This file can be excuted in the analysis_lib with the other utilities ready
+# Global paths are used to find other required files and the variables needed 
+# to be changed should be clear below
 import os
 import subprocess
 import shutil

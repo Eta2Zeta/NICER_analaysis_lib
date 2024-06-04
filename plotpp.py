@@ -1,6 +1,9 @@
 # Hongyu Zhang 04/13/2024
 # Python code to use stingray to plot joint pulse profiles - Her X-1
 # Modified to standardize as the plotting of pulse profile
+# This file is used by placing it at the "analysis" directory where the nicer_xti_ev_calib.nc file is 
+# already created and ready to be copied
+# TODO: I guess I can auto detect all the nicer_xti_ev_calib.nc files in the directory 
 
 import matplotlib.pyplot as plt
 import numpy as np

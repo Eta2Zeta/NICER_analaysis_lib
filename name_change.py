@@ -1,4 +1,5 @@
 import os
+# A legacy code for 
 
 def rename_files(directory):
     # Change to the specified directory
