@@ -12,7 +12,7 @@ from stingray.pulse.pulsar import fold_events
 DATAPATH = '/Users/hongyuzhang/Documents/data/her_x-1/2022_data'
 #Used for equal energy intervals, if set to 0, custum intervals will be used
 INTERVAL = 0 
-CUSTOM_INTERVALS = [5,8,14,100]
+CUSTOM_INTERVALS = [5,8,14,100] #I belive these are in the units of 0.1 keV so [a,b,c] will be from 0.1 * a to 0.1 * b keV and 0.1 * b keV to 0.1 * c keV
 RMF_FILE = "nixtiref20170601v003.rmf"
 RMF_DIR = '/Users/hongyuzhang/Documents/soft/caldb/data/nicer/xti/cpf/rmf'
 PULSE_PROFILE_DIR = "pulse_profiles"
